@@ -1,0 +1,209 @@
+﻿<error errorId="1db0a57b-42f4-41ac-894f-1670f3dbf40a" application="/LM/W3SVC/8/ROOT" host="HUNAG" type="System.Data.SqlClient.SqlException" message="Invalid object name 'dbo.T_Tag'." source=".Net SqlClient Data Provider" detail="System.ApplicationException: 执行命令定义时出错。有关详细信息，请参阅内部异常。   在 System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)&#xD;&#xA;   在 System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)&#xD;&#xA;   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)&#xD;&#xA;   在 System.Data.Objects.ObjectQuery`1.Execute(MergeOption mergeOption)&#xD;&#xA;   在 System.Data.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)&#xD;&#xA;   在 System.Data.Objects.DataClasses.EntityCollection`1.Load(MergeOption mergeOption)&#xD;&#xA;   在 System.Data.Objects.DataClasses.RelatedEnd.Load()&#xD;&#xA;   在 System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()&#xD;&#xA;   在 System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)&#xD;&#xA;   在 System.Data.Objects.Internal.LazyLoadBehavior.&lt;&gt;c__DisplayClass7`2.&lt;GetInterceptorDelegate&gt;b__1(TProxy proxy, TItem item)&#xD;&#xA;   在 System.Data.Entity.DynamicProxies.T_Content_A95920ACB978F462962C5C0BF7F06E9D8455E68BFDBFF90BB6C2544B10766A65.get_T_Tag()&#xD;&#xA;   在 SimpleCMS.Controllers.ContentController.List() 位置 d:\Projects\2013\SimpleCMS\SimpleCMS\Controllers\ContentController.cs:行号 78&#xD;&#xA;   在 lambda_method(Closure , ControllerBase , Object[] )&#xD;&#xA;   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)&#xD;&#xA;   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)&#xD;&#xA;   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass42.&lt;BeginInvokeSynchronousActionMethod&gt;b__41()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass8`1.&lt;BeginSynchronous&gt;b__7(IAsyncResult _)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;&gt;c__DisplayClass39.&lt;BeginInvokeActionMethodWithFilters&gt;b__33()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass4f.&lt;InvokeActionMethodFilterAsynchronously&gt;b__49()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;BeginInvokeActionMethodWithFilters&gt;b__36(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.&lt;&gt;c__DisplayClass1d.&lt;BeginExecuteCore&gt;b__18(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClass8.&lt;BeginProcessRequest&gt;b__3(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously) ---&gt; System.Data.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---&gt; System.Data.SqlClient.SqlException: Invalid object name 'dbo.T_Tag'.&#xD;&#xA;   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;&#xA;   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;&#xA;   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;&#xA;   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;&#xA;   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()&#xD;&#xA;   在 System.Data.SqlClient.SqlDataReader.get_MetaData()&#xD;&#xA;   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)&#xD;&#xA;   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite)&#xD;&#xA;   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)&#xD;&#xA;   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)&#xD;&#xA;   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)&#xD;&#xA;   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)&#xD;&#xA;   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)&#xD;&#xA;   在 System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)&#xD;&#xA;   --- 内部异常堆栈跟踪的结尾 ---&#xD;&#xA;   在 System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)&#xD;&#xA;   在 System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)&#xD;&#xA;   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)&#xD;&#xA;   在 System.Data.Objects.ObjectQuery`1.Execute(MergeOption mergeOption)&#xD;&#xA;   在 System.Data.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)&#xD;&#xA;   在 System.Data.Objects.DataClasses.EntityCollection`1.Load(MergeOption mergeOption)&#xD;&#xA;   在 System.Data.Objects.DataClasses.RelatedEnd.Load()&#xD;&#xA;   在 System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()&#xD;&#xA;   在 System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)&#xD;&#xA;   在 System.Data.Objects.Internal.LazyLoadBehavior.&lt;&gt;c__DisplayClass7`2.&lt;GetInterceptorDelegate&gt;b__1(TProxy proxy, TItem item)&#xD;&#xA;   在 System.Data.Entity.DynamicProxies.T_Content_A95920ACB978F462962C5C0BF7F06E9D8455E68BFDBFF90BB6C2544B10766A65.get_T_Tag()&#xD;&#xA;   在 SimpleCMS.Controllers.ContentController.List() 位置 d:\Projects\2013\SimpleCMS\SimpleCMS\Controllers\ContentController.cs:行号 78&#xD;&#xA;   在 lambda_method(Closure , ControllerBase , Object[] )&#xD;&#xA;   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)&#xD;&#xA;   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)&#xD;&#xA;   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass42.&lt;BeginInvokeSynchronousActionMethod&gt;b__41()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass8`1.&lt;BeginSynchronous&gt;b__7(IAsyncResult _)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;&gt;c__DisplayClass39.&lt;BeginInvokeActionMethodWithFilters&gt;b__33()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass4f.&lt;InvokeActionMethodFilterAsynchronously&gt;b__49()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;BeginInvokeActionMethodWithFilters&gt;b__36(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.&lt;&gt;c__DisplayClass1d.&lt;BeginExecuteCore&gt;b__18(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClass8.&lt;BeginProcessRequest&gt;b__3(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar)&#xD;&#xA;   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)&#xD;&#xA;   --- 内部异常堆栈跟踪的结尾 ---" user="test" time="2013-10-25T19:08:00.1866929Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3&#xD;&#xA;HTTP_COOKIE:style=blue; ext-mainnav.west=o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1041; ext-mainnav.east.description=o%3A; ext-mainnav.east=o%3A; ext-stateGrid=o%3Awidth%3Dn%253A650%5Eheight%3Dn%253A350%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1225%255Eo%25253Aid%25253Ds%2525253Aheader-1226%255Eo%25253Aid%25253Ds%2525253Aheader-1227%255Eo%25253Aid%25253Ds%2525253Aheader-1228%255Eo%25253Aid%25253Ds%2525253Aheader-1229%255Eo%25253Aid%25253Ds%2525253Aheader-1230; ASP.NET_SessionId=jalbwwcdywohmcbnenvhxhdq; ext-contentView=o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1235%255Eo%25253Aid%25253Ds%2525253Aheader-1108%255Eo%25253Aid%25253Ds%2525253Aheader-1109%255Eo%25253Aid%25253Ds%2525253Aheader-1110%255Eo%25253Aid%25253Ds%2525253Aheader-1111%255Eo%25253Aid%25253Ds%2525253Aheader-1112%255Eo%25253Aid%25253Ds%2525253Aheader-1113%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AContentId%2525255Edirection%2525253Ds%252525253ADESC; ext-categoryView=o%3Awidth%3Dn%253A270%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1083; .ASPXAUTH=AE01EF3CC145B20644BEDD023B0A5FFCDEC1FCD0D5CBDE991D2DEDA526F8FDEE36F33D9C927D60373FA61B096363C87BB97892E47E2475F28A3BB85B2EDC2FCDBA22A8433548781CC3CF9DA50D03D4940BD7F79EBBAB17B34C78D6227048B3DA&#xD;&#xA;HTTP_HOST:localhost:4815&#xD;&#xA;HTTP_REFERER:http://localhost:4815/&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3&#xD;&#xA;Cookie: style=blue; ext-mainnav.west=o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1041; ext-mainnav.east.description=o%3A; ext-mainnav.east=o%3A; ext-stateGrid=o%3Awidth%3Dn%253A650%5Eheight%3Dn%253A350%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1225%255Eo%25253Aid%25253Ds%2525253Aheader-1226%255Eo%25253Aid%25253Ds%2525253Aheader-1227%255Eo%25253Aid%25253Ds%2525253Aheader-1228%255Eo%25253Aid%25253Ds%2525253Aheader-1229%255Eo%25253Aid%25253Ds%2525253Aheader-1230; ASP.NET_SessionId=jalbwwcdywohmcbnenvhxhdq; ext-contentView=o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1235%255Eo%25253Aid%25253Ds%2525253Aheader-1108%255Eo%25253Aid%25253Ds%2525253Aheader-1109%255Eo%25253Aid%25253Ds%2525253Aheader-1110%255Eo%25253Aid%25253Ds%2525253Aheader-1111%255Eo%25253Aid%25253Ds%2525253Aheader-1112%255Eo%25253Aid%25253Ds%2525253Aheader-1113%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AContentId%2525255Edirection%2525253Ds%252525253ADESC; ext-categoryView=o%3Awidth%3Dn%253A270%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1083; .ASPXAUTH=AE01EF3CC145B20644BEDD023B0A5FFCDEC1FCD0D5CBDE991D2DEDA526F8FDEE36F33D9C927D60373FA61B096363C87BB97892E47E2475F28A3BB85B2EDC2FCDBA22A8433548781CC3CF9DA50D03D4940BD7F79EBBAB17B34C78D6227048B3DA&#xD;&#xA;Host: localhost:4815&#xD;&#xA;Referer: http://localhost:4815/&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/8/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="D:\Projects\2013\SimpleCMS\SimpleCMS\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="test" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="test" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="test" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="8" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/8" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Content/List" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="D:\Projects\2013\SimpleCMS\SimpleCMS\Content\List" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="_dc=1382728079984&amp;page=1&amp;start=0&amp;limit=100&amp;sort=%5B%7B%22property%22%3A%22ContentId%22%2C%22direction%22%3A%22DESC%22%7D%5D&amp;filter=%5B%7B%22property%22%3A%22CategoryId%22%2C%22value%22%3A-1%2C%22operator%22%3A%22%3E%22%7D%5D" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="30805" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Content/List" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="4815" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/Content/List" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="style=blue; ext-mainnav.west=o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1041; ext-mainnav.east.description=o%3A; ext-mainnav.east=o%3A; ext-stateGrid=o%3Awidth%3Dn%253A650%5Eheight%3Dn%253A350%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1225%255Eo%25253Aid%25253Ds%2525253Aheader-1226%255Eo%25253Aid%25253Ds%2525253Aheader-1227%255Eo%25253Aid%25253Ds%2525253Aheader-1228%255Eo%25253Aid%25253Ds%2525253Aheader-1229%255Eo%25253Aid%25253Ds%2525253Aheader-1230; ASP.NET_SessionId=jalbwwcdywohmcbnenvhxhdq; ext-contentView=o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1235%255Eo%25253Aid%25253Ds%2525253Aheader-1108%255Eo%25253Aid%25253Ds%2525253Aheader-1109%255Eo%25253Aid%25253Ds%2525253Aheader-1110%255Eo%25253Aid%25253Ds%2525253Aheader-1111%255Eo%25253Aid%25253Ds%2525253Aheader-1112%255Eo%25253Aid%25253Ds%2525253Aheader-1113%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AContentId%2525255Edirection%2525253Ds%252525253ADESC; ext-categoryView=o%3Awidth%3Dn%253A270%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1083; .ASPXAUTH=AE01EF3CC145B20644BEDD023B0A5FFCDEC1FCD0D5CBDE991D2DEDA526F8FDEE36F33D9C927D60373FA61B096363C87BB97892E47E2475F28A3BB85B2EDC2FCDBA22A8433548781CC3CF9DA50D03D4940BD7F79EBBAB17B34C78D6227048B3DA" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:4815" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:4815/" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="_dc">
+      <value string="1382728079984" />
+    </item>
+    <item name="page">
+      <value string="1" />
+    </item>
+    <item name="start">
+      <value string="0" />
+    </item>
+    <item name="limit">
+      <value string="100" />
+    </item>
+    <item name="sort">
+      <value string="[{&quot;property&quot;:&quot;ContentId&quot;,&quot;direction&quot;:&quot;DESC&quot;}]" />
+    </item>
+    <item name="filter">
+      <value string="[{&quot;property&quot;:&quot;CategoryId&quot;,&quot;value&quot;:-1,&quot;operator&quot;:&quot;&gt;&quot;}]" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="style">
+      <value string="blue" />
+    </item>
+    <item name="ext-mainnav.west">
+      <value string="o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1041" />
+    </item>
+    <item name="ext-mainnav.east.description">
+      <value string="o%3A" />
+    </item>
+    <item name="ext-mainnav.east">
+      <value string="o%3A" />
+    </item>
+    <item name="ext-stateGrid">
+      <value string="o%3Awidth%3Dn%253A650%5Eheight%3Dn%253A350%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1225%255Eo%25253Aid%25253Ds%2525253Aheader-1226%255Eo%25253Aid%25253Ds%2525253Aheader-1227%255Eo%25253Aid%25253Ds%2525253Aheader-1228%255Eo%25253Aid%25253Ds%2525253Aheader-1229%255Eo%25253Aid%25253Ds%2525253Aheader-1230" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="jalbwwcdywohmcbnenvhxhdq" />
+    </item>
+    <item name="ext-contentView">
+      <value string="o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1235%255Eo%25253Aid%25253Ds%2525253Aheader-1108%255Eo%25253Aid%25253Ds%2525253Aheader-1109%255Eo%25253Aid%25253Ds%2525253Aheader-1110%255Eo%25253Aid%25253Ds%2525253Aheader-1111%255Eo%25253Aid%25253Ds%2525253Aheader-1112%255Eo%25253Aid%25253Ds%2525253Aheader-1113%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AContentId%2525255Edirection%2525253Ds%252525253ADESC" />
+    </item>
+    <item name="ext-categoryView">
+      <value string="o%3Awidth%3Dn%253A270%5Ecolumns%3Da%253Ao%25253Aid%25253Ds%2525253Aheader-1083" />
+    </item>
+    <item name=".ASPXAUTH">
+      <value string="AE01EF3CC145B20644BEDD023B0A5FFCDEC1FCD0D5CBDE991D2DEDA526F8FDEE36F33D9C927D60373FA61B096363C87BB97892E47E2475F28A3BB85B2EDC2FCDBA22A8433548781CC3CF9DA50D03D4940BD7F79EBBAB17B34C78D6227048B3DA" />
+    </item>
+  </cookies>
+</error>

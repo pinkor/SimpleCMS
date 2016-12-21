@@ -1,0 +1,25 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>简单的CMS系统</title>
+    @System.Web.Optimization.Scripts.Render("~/bundles/plupload")
+    @System.Web.Optimization.Scripts.Render("~/scripts/tinymce")
+    @System.Web.Optimization.Styles.Render("~/Scripts/tinymce/themes/advanced/skins/extjs/")
+    <!-- <x-compile> -->
+        <!-- <x-bootstrap> -->
+            <link rel="stylesheet" href="Scripts/bootstrap.css">
+            <script src="Scripts/ext/ext-dev.js"></script>
+            <script src="Scripts/bootstrap.js"></script>
+        <!-- </x-bootstrap> -->
+        <script src="Scripts/ext/locale/ext-lang-zh_CN.js"></script>
+        <script src="Scripts/app.js"></script>
+    <!-- </x-compile> -->
+</head>
+<body>
+    <form id="history-form" class="x-hide-display">
+        <input type="hidden" id="x-history-field" />
+        <iframe id="x-history-frame"></iframe>
+    </form>
+</body>
+</html>

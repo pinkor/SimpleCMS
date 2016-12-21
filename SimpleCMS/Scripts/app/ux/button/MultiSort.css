@@ -1,0 +1,8 @@
+﻿.x-btn .sort-direction-asc {
+    background-image: url("images/grid/sort_asc.png");
+    background-position: 4px center;
+}
+.x-btn .sort-direction-desc {
+    background-image: url("images/grid/sort_desc.png");
+    background-position: 4px center;
+}
