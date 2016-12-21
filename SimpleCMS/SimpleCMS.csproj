@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -160,6 +161,7 @@
     </Compile>
     <Compile Include="Helper\AppSettings.cs" />
     <Compile Include="Helper\ExtJS.cs" />
+    <Compile Include="Helper\GitHubDemo.cs" />
     <Compile Include="Helper\VerifyCode.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\ContentModel.cs" />
